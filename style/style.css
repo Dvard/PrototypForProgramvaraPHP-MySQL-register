@@ -1,0 +1,166 @@
+﻿
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ body {
+	background: #efefef;
+	font-family: georgia;
+ }
+ h1 {
+	font-size: 3.5em;
+	color: #666;
+	text-shadow: 1px 1px 0px rgba(255,255,255, 0.3);
+	padding: 10px 0 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+ }
+#container { 
+	width: 940px; 
+	border: 6px solid #ccc;
+	-moz-box-shadow: 0px 0px 5px #888;
+	-webkit-box-shadow: 0 0px 5px #888;
+	box-shadow: 0px 0px 5px #888;
+	border-radius: 20px;
+	padding: 20px; margin: 20px auto;
+	background-color: #999;
+}	
+
+fieldset {
+	margin: 0 20px;
+}
+#register_form label {
+	display: block;
+	width: 120px;
+	float: left;
+	height: 40px; line-height: 40px;
+	padding: 0 10px;
+	color: #333;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-style: italic;
+	text-shadow: 1px 1px 0px rgba(255,255,255, 0.3);
+}
+#register_form input {
+	width: 290px;
+	height: 40px; line-height: 40px;
+	float: left;
+	border-radius: 5px;
+	border: 1px solid #fff;
+	box-shadow: inset 2px 2px 2px  rgba(0,0,0,0.3);
+	background-color: #efefef;
+	font-size: 1.5em;
+	padding-left: 10px;
+}
+
+#register_form input.btn{
+	float: none;
+	width: 890px;
+	margin: 40px auto 20px;
+	height: auto; line-height: auto;
+	padding: 10px;
+	float: left;
+	border-radius: 5px;
+	border: 3px solid #008200;
+	box-shadow: 0px 0px 2px  rgba(0,0,0,0.3);
+	background-colo2: #00CC00;
+	font-family: georgia;
+	font-size: 2em;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	cursor: pointer;
+	background-image: -webkit-linear-gradient(#00CC00 0%, #008200 100%);
+	background-image: -moz-linear-gradient(#00CC00 0%, #008200 100%);
+	background-image: -o-linear-gradient(#00CC00 0%, #008200 100%);
+	background-image: -linear-gradient(#00CC00 0%, #008200 100%);
+}
+#register_form input.btn:hover{
+	background-color: #008200;
+	background-image: none;
+	box-shadow: none;
+}
+h3.info {
+color: #fff;
+border: 2px solid #fff;
+padding: 20px;
+text-align: center;
+margin: 0 20px;
+font-size: 1.5em;
+font-weight: bold;
+background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff3019), color-stop(100%,#cf0404)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #ff3019 0%,#cf0404 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #ff3019 0%,#cf0404 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #ff3019 0%,#cf0404 100%); /* IE10+ */
+background: linear-gradient(to bottom, #ff3019 0%,#cf0404 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 ); /* IE6-9 */	
+}
+
+#lists {
+	width: 940px;
+	padding: 10px;
+	margin: 20px auto;
+}
+
+ul.course_list {
+	width: 200px;
+	padding: 0;
+	list-style: none;
+	float: left;
+	margin: 0 15px 20px;
+}
+ul.course_list li {
+	padding: 5px;
+}
+li.head { 
+	background-color: #666;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+}
+li:nth-child(2n) {
+		background-color: #fff;
+}
